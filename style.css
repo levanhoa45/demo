@@ -893,6 +893,7 @@ form input{
     .wrapper-contact .icon .tooltip{
         font-size: 10px;
         padding: 10px 1px;
+        width: 120px;
     }
     .footer-right{
         float: left;
