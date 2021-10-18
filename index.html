@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Demo</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="top-nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                   <div class="icon-header pt-3">
+                       <ul class="list-inline">
+                           <li class="list-inline-item mr-2">
+                                <div class="icons">
+                                    <ion-icon name="document-text-outline" class="pt-1"></ion-icon>
+                                    <span class="mx-3">Blog</span>
+                                </div>
+                           </li>
+                           <li class="list-inline-item mr-2">
+                                <div class="icons">
+                                    <ion-icon name="document-text-outline" class="pt-1"></ion-icon>
+                                    <span class="mx-3">Jobs</span>
+                                </div>
+                            </li>
+                            <li class="list-inline-item mr-2">
+                                <div class="icons">
+                                    <ion-icon name="megaphone-outline" class="pt-1"></ion-icon>
+                                    <span class="mx-3">Support</span>
+                                </div>
+                            </li>
+                            <li class="list-inline-item mr-2">
+                                <div class="icons">
+                                    <ion-icon name="earth-outline" class="pt-1"></ion-icon>
+                                    <span class="mx-3">Arablic</span>
+                                </div>
+                            </li>
+                       </ul>
+                   </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="logo-header">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><button><ion-icon name="logo-facebook" class="logo mx-3" style="color: blue;"></ion-icon></button></li>
+                            <li class="list-inline-item"><button><ion-icon name="logo-twitter" class="logo mx-3" style="color: rgb(83, 212, 255);"></ion-icon></button></li>
+                            <li class="list-inline-item"><button><ion-icon name="logo-instagram" class="logo mx-3" style="color: blue;"></ion-icon></button></li>
+                            <li class="list-inline-item"><button><ion-icon name="logo-google" class="logo mx-3" style="color: red;"></ion-icon></button></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+    <section class="logo-brands">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="logo-text">
+                        <p>logo</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="wrapper">
+                        <div class="icon call">
+                           <div class="tooltip">
+                              1122-3344-5566
+                           </div>
+                           <span><ion-icon name="call-outline"></ion-icon></i></span>
+                        </div>
+                        <div class="icon location">
+                           <div class="tooltip">
+                              Saudi Arabia. Alreyadah
+                           </div>
+                           <span><ion-icon name="location-outline"></ion-icon></i></span>
+                        </div>
+                        <div class="icon mail">
+                           <div class="tooltip">
+                              Scripts@gmail.com
+                           </div>
+                           <span><ion-icon name="mail-outline"></ion-icon></i></span>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar navbar-expand-xl nav-menu mt-5">
+        <div class="container">
+            <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#menu" >
+                <div class="bg-dark line1"></div>
+                <div class="bg-dark line2"></div>
+                <div class="bg-dark line3"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav align-items-lg-center text-center">
+                    <li class="nav-item">
+                        <a href=""class="mx-2 menu-item active">Home</a>
+                    </li>
+                    <div class="bordercol"></div>
+                    <li class="nav-item">
+                        <a href=""class="mx-2 menu-item">What about ISAMA</a>
+                    </li>
+                    <div class="bordercol"></div>
+                    <li class="nav-item">
+                        <a href=""class="mx-2 menu-item">What we do?</a>
+                    </li>
+                    <div class="bordercol"></div>
+                    <li class="nav-item">
+                        <a href=""class="mx-2 menu-item">Our Projects</a>
+                    </li>
+                    <div class="bordercol"></div>
+                    <li class="nav-item">
+                        <a href=""class="mx-2 menu-item">Excellent Team</a>
+                    </li>
+                    <div class="bordercol"></div>
+                    <li class="nav-item">
+                        <a href=""class="m-2 menu-item">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <form class="" action="">
+                    <button type="submit"><i class='fas fa-search'></i></button>
+                    <input type="text" placeholder="Type your search words?" name="search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="img-banner">
+            <img src="images/banner.jpg" alt="" width="100%">
+            <div class="slider">
+                <div class="like">
+                    <img src="images/green.jpg" alt="" class="" width="100%">
+                    <div class="overlay green">
+                        <div class="overlay-item">
+                            <ion-icon name="heart-outline" class="overlay-icon"></ion-icon>
+                            <p class="overlay-text">Like</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="like">
+                    <img src="images/slideyellow.jpg" alt="" class="" width="100%">
+                    <div class="overlay yellow">
+                        <div class="overlay-item">
+                            <ion-icon name="heart-outline" class="overlay-icon"></ion-icon>
+                            <p class="overlay-text">Like</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="like">
+                    <img src="images/slideblue.jpg" alt="" class="" width="100%">
+                    <div class="overlay blue">
+                        <div class="overlay-item">
+                            <ion-icon name="heart-outline" class="overlay-icon"></ion-icon>
+                            <p class="overlay-text">Like</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="like">
+                    <img src="images/red.jpg" alt="" class="" width="100%">
+                    <div class="overlay red">
+                        <div class="overlay-item">
+                            <ion-icon name="heart-outline" class="overlay-icon"></ion-icon>
+                            <p class="overlay-text">Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-img-icon">&</p>
+            <p class="text-img-top text-uppercase">Let's draw some art</p>
+            <p class="text-img-bot">make your business much better</p>
+        </div>
+    </section>
+    <section class="about mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="about col-lg-6 col-md-6 col-sm-12">
+                    <img src="images/about.jpg" alt="" width="100%" height="100px">
+                    <div class="about-item mr-5 ml-4">
+                        <p class="about-title">What about ISAMA</p>
+                        <p class="about-text">ISAMA is a marketing foundation located in Riyadh built on the talent of creation that leads to a modern concept of professionalism. At ISAMA we believe even if you are good at what you do, you have a great product or you provide an excellent service. We still can present you a little better to the world, creating your full identity, provides you with your marketing plans, design your website, print your publications, design your logo’s and offices. Simply we give your business the perfect image.</p>
+                    </div>    
+                </div>
+                <div class="why col-lg-6 col-md-6 col-sm-12">
+                    <img src="images/why.jpg" alt="" width="100%" height="100px">
+                    <div class="about-item ml-4 mr-5">
+                        <p class="why-title">Why we exits</p>
+                        <p class="why-text">Reaching customer satisfaction through providing them with cutting-edge technologies that give clients access to a wide range of tools, ensuring efficient and results-oriented communication solutions, which grant them a special character that distinguishes them from the others in the business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wedo">
+        <div class="container">
+            <div class="wedo-item">
+                <img src="images/cungten.jpg" alt="" class="img-wedo" width="120px" height="120px">
+                <div class="wedo-item-text mt-3 ml-4">
+                    <p class="wedo-title">What we do ?</p>
+                    <p class="wedo-text">Everything you need to do business intelligence right</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="items mt-5">
+                        <img src="images/webdesign.jpg" alt="" class="img-wedo-item">
+                        <div class="mr-5 ml-4">
+                            <p class="items-title">Web Design & Development</p>
+                            <p class="items-text">ISAMA Pvt. Ltd. designs and develops creative websites utilizing the latest technologies.</p>
+                        </div>
+                    </div>
+                    <div class="items mt-5">
+                        <img src="images/software.jpg" alt="" class="img-wedo-item">
+                        <div class="mr-5 ml-4">
+                            <p class="items-title">Sofware Solutions</p>
+                            <p class="items-text">with our software for professional services and consulting firms. Grow your revenue and profit margins by assigning the right people to the right projects at the right time.</p>
+                        </div>
+                    </div>
+                    <div class="items mt-5">
+                        <img src="images/branding.jpg" alt="" class="img-wedo-item">
+                        <div class="mr-5 ml-4">
+                            <p class="items-title">Branding</p>
+                            <p class="items-text">We have our forte in advertising and Brand establishment. We create identities for the clients product and services in the target market.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="items left mt-5">
+                        <img src="images/mobile.jpg" alt="" class="img-wedo-item">
+                        <div class="mr-5 ml-4">
+                            <p class="items-title">Mobile Applications</p>
+                            <p class="items-text">Our Developers helps you to Design, Develop & Distribute Mobile Applications - Smarter & Faster.</p>
+                        </div>
+                    </div>
+                    <div class="items left mt-5">
+                        <img src="images/interior.jpg" alt="" class="img-wedo-item">
+                        <div class="mr-5 ml-4">
+                            <p class="items-title">Interior  Design</p>
+                            <p class="items-text">We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Concierge service, all of which are executed with beautiful, custom-tailored results.</p>
+                        </div>
+                    </div>
+                    <div class="items left mt-4">
+                        <img src="images/seo.jpg" alt="" class="img-wedo-item">
+                        <div class="mr-5 ml-4">
+                            <p class="items-title">SEO & Web Marketing Services</p>
+                            <p class="items-text">We offer a variety of design services ranging from Full Service Interior Design and Styling to our Design Concierge service, all of which are executed with beautiful, custom-tailored results.</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section class="project m-3">
+		<div class="container">
+            <div class="project-item">
+                <img src="images/iconproject.jpg" alt="" class="img-wedo" width="120px" height="140px">
+                <div class="project-item-text mt-3 ml-4">
+                    <p class="project-title">Our Projects</p>
+                    <p class="project-text">Some of our awesome work Proud of doing great works for our clients</p>
+                </div>
+            </div>
+            <ul class="list-inline text-center mb-4">
+				<li class="list-inline-item project-list-item active-item mb-3" data-filter="all">
+					All
+				</li>
+				<li class="list-inline-item project-list-item mb-3" data-filter="Mobile-Apps">
+					Mobile Apps
+				</li>
+				<li class="list-inline-item project-list-item mb-3" data-filter="Identities">
+					Identities
+				</li>
+				<li class="list-inline-item project-list-item mb-3" data-filter="Interior-Design">
+					Interior Design
+				</li>
+                <li class="list-inline-item project-list-item mb-3" data-filter="UI-UX">
+					UI/UX
+				</li>
+			</ul>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Identities">
+                        <img src="images/identist1.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Identities">
+                        <img src="images/identist2.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Identities">
+                        <img src="images/identist3.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Identities">
+                        <img src="images/identist4.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Identities">
+                        <img src="images/identist5.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Identities">
+                        <img src="images/identist6.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Identities">
+                        <img src="images/identist7.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Identities">
+                        <img src="images/identist4.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Interior-Design">
+                        <img src="images/1.jfif" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Interior-Design">
+                        <img src="images/2.jpeg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Interior-Design">
+                        <img src="images/3.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Interior-Design">
+                        <img src="images/4.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter UI-UX">
+                        <img src="images/uiux1.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter UI-UX">
+                        <img src="images/uiux2.png" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter UI-UX">
+                        <img src="images/uiux3.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter UI-UX">
+                        <img src="images/uiux4.png" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Mobile-Apps">
+                        <img src="images/mobile1.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Mobile-Apps">
+                        <img src="images/mobile2.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Mobile-Apps">
+                        <img src="images/mobile3.jpg" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card filter Mobile-Apps">
+                        <img src="images/mobile4.png" alt="" class="img-project">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="link-outline" class="icon-project"></ion-icon>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-3">
+                                <ion-icon name="add-outline" class="icon-project"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</section>
+    <section class="team mt-5">
+        <div class="container">
+            <div class="project-item">
+                <img src="images/team1.jpg" alt="" class="img-wedo" width="120px" height="140px">
+                <div class="project-item-text mt-3 ml-4">
+                    <p class="project-title">Meet Our Team</p>
+                    <p class="project-text">We have highly qualified staff with distinguished significant experiences in their field who work under pressure.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="card people">
+                        <img src="images/team2.jpg" alt="" class="img-team">
+                        <p class="name-team">Tamer</p>
+                        <p class="word-team">Senior Software Engineer</p>
+                        <div class="icon-team">
+                            <ion-icon name="logo-facebook" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-twitter" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-instagram" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-linkedin" class="logo-team mx-2 mt-1"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="card people">
+                        <img src="images/team3.jpg" alt="" class="img-team">
+                        <p class="name-team">Hazem</p>
+                        <p class="word-team">PHP Developer</p>
+                        <div class="icon-team">
+                            <ion-icon name="logo-facebook" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-twitter" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-instagram" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-linkedin" class="logo-team mx-2 mt-1"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="card people">
+                        <img src="images/team4.jpg" alt="" class="img-team">
+                        <p class="name-team">Mohammed</p>
+                        <p class="word-team">PHP Developer</p>
+                        <div class="icon-team">
+                            <ion-icon name="logo-facebook" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-twitter" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-instagram" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-linkedin" class="logo-team mx-2 mt-1"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="card people">
+                        <img src="images/team5.jpg" alt="" class="img-team">
+                        <p class="name-team">Ahmed</p>
+                        <p class="word-team">UI/UX Design</p>
+                        <div class="icon-team">
+                            <ion-icon name="logo-facebook" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-twitter" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-instagram" class="logo-team mx-2 mt-1"></ion-icon>
+                            <ion-icon name="logo-linkedin" class="logo-team mx-2 mt-1"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact mt-5">
+        <div class="img-contact">
+            <img src="images/map.jpg" alt="" width="100%">
+            <ion-icon name="location-sharp" class="location-contact"></ion-icon>
+            <div class="icon-contact">
+                <div class="wrapper-contact">
+                    <div class="icon location-contact1">
+                       <div class="tooltip">
+                          795 Almaddinah Way Saudi  Arabia. Alreyadah
+                       </div>
+                       <span><ion-icon name="location-outline" class="px-2"></ion-icon></i></span>
+                    </div>
+                    <div class="icon mail-contact">
+                       <div class="tooltip">
+                          Scripts@gmail.com
+                       </div>
+                       <span><ion-icon name="mail-outline" class="px-2"></ion-icon></i></span>
+                    </div>
+                    <div class="icon call-contact">
+                       <div class="tooltip">
+                          1122-3344-5566
+                       </div>
+                       <span><ion-icon name="call-outline" class="px-2"></ion-icon></i></span>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="logo-footer">
+                        <button><ion-icon name="logo-facebook" class="logo-footer-item mx-2"></ion-icon></button>
+                        <button><ion-icon name="logo-twitter" class="logo-footer-item mx-2"></ion-icon></button>
+                        <button><ion-icon name="logo-instagram" class="logo-footer-item mx-2"></ion-icon></button>
+                        <button><ion-icon name="logo-google" class="logo-footer-item mx-2"></ion-icon></button>
+                    </div>
+                    <p class="small">&copy;Copyright 2014-ISAMA for information technology</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-right">
+                        <form class="search" action="">
+                            <div class="icon-footer mt-2 mr-3">
+                                <ion-icon name="file-tray-full-outline"></ion-icon>
+                            </div>
+                            <input type="text" placeholder="Enter your email for our new letter" name="search">
+                            <button type="submit">Join</button>
+                        </form>
+                        <div class="footer-text">
+                            <p class="">Blog<span class="h2 mx-2">.</span></p>
+                            <p class="">Job<span class="h2 mx-2">.</span></p>
+                            <p class="">Team of Service<span class="h2 mx-2">.</span></p>
+                            <p class="">Privace<span class="h2 mx-2">.</span></p>
+                            <p class="">Policy<span class="h2"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>
